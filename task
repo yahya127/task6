@@ -1,0 +1,13 @@
+bank => customers
+customer => name, balance, account number
+
+node app.js addCustomer --name=x --balance=y  --accNumb=5
+if accNum used before =>err
+
+showw all customers
+
+
+addbalance --accNumb=5 --newbalance=500
+x balance 1500
+
+withdraw => balance<newbalace => err
